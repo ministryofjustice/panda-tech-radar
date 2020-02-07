@@ -1,7 +1,7 @@
 # Motivation
 
-At [Zalando](http://zalando.de), we maintain a [public Tech
-Radar](http://zalando.github.io/tech-radar/) to help our engineering teams
+At [HMPPS Digital](https://mojdigital.blog.gov.uk/), we maintain a [public Tech
+Radar](https://github.com/ministryofjustice/hmpps-digital-tech-radar) to help our engineering teams
 align on technology choices. It is based on the [pioneering work
 by ThoughtWorks](https://www.thoughtworks.com/radar).
 
@@ -9,7 +9,22 @@ This repository contains the code to generate the visualization:
 [`radar.js`](/docs/radar.js) (based on [d3.js v4](https://d3js.org)).
 Feel free to use and adapt it for your own purposes.
 
-## Usage
+# Quick Build
+
+```bash
+git clone https://github.com/ministryofjustice/hmpps-digital-tech-radar
+cd hmpps-digital-tech-radar
+cd build/
+# update CSV filewith your changes
+cp <location-of-updated-csv-file> test-tech-radar.csv
+# then regenerate the js...
+./generate-radar-data.sh >../docs/radar_visualization.js
+
+# now open ../docs/index.html in your browser, e.g.
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" ../docs/index.html
+```
+
+## Further Usage
 
 1. include `d3.js` and `radar.js`:
 
