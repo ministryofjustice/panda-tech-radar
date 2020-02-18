@@ -9,10 +9,10 @@ radar_visualization({
   },
   title: "HMPPS Digital Tech Radar — Feb 2020",
   quadrants: [
-    { name: "Languages" },
+    { name: "Techniques" },
     { name: "Tooling" },
-    { name: "Frameworks" },
-    { name: "Techniques" }
+    { name: "Platforms" },
+    { name: "Languages & Frameworks" }
   ],
   rings: [
     { name: "ADOPT", color: "#93c47d" },
