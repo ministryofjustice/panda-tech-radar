@@ -7,7 +7,7 @@ radar_visualization({
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "HMPPS Digital Tech Radar — Feb 2020",
+  title: "HMPPS Digital Tech Radar — April 2020",
   quadrants: [
     { name: "Techniques" },
     { name: "Tooling" },
@@ -26,481 +26,449 @@ radar_visualization({
   entries: [
      {
         quadrant: 1,
+        ring: 0,
+        label: "Code - Github",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Code - Prettier",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Code - SASS",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
         ring: 1,
-        label: "name",
-        active: false,
+        label: "Code - Sonarqube",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 0,
-        label: "Github",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Circle CI",
-        active: false,
+        label: "CI - Circle CI",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 2,
-        label: "Jenkins",
-        active: false,
+        label: "CI - Jenkins",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 0,
-        label: "Flyway",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Helm",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Kubernetes",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Docker",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Docker-compose (dev)",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Terraform",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 2,
-        label: "Terragrunt",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Ansible (VMs only)",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Gradle (Kotlin)",
-        active: false,
+        label: "Dev - Gradle (Kotlin-based)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 3,
-        label: "Gradle (Groovy)",
-        active: false,
+        label: "Dev - Gradle (Groovy-based)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 3,
-        label: "SBT (Scala build tool)",
-        active: false,
+        label: "Dev - SBT (Scala build tool)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 2,
-        label: "Make",
-        active: false,
+        label: "Dev - Make",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 0,
-        label: "Prettier",
-        active: false,
+        label: "Dev - Docker-compose",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 0,
-        label: "Standard JS",
-        active: false,
+        label: "Dev - Postman",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 0,
-        label: "ES Lint",
-        active: false,
+        label: "Dev - IntelliJ",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 0,
-        label: "SASS",
-        active: false,
+        label: "Dev - VSCode",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 0,
-        label: "Webpack",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "NPM",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "NVM",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 2,
-        label: "Browserify",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 2,
-        label: "Gulp",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 2,
-        label: "Grunt",
-        active: false,
+        label: "DB - Flyway",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 1,
-        label: "SQL Clone",
-        active: false,
+        label: "DB - SQL Clone",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 1,
-        label: "ADO",
-        active: false,
+        label: "DB - ADO",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Platform - Kubernetes/Helm",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Platform - Docker",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "IaC - Terraform",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 2,
+        label: "IaC - Terragrunt",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "IaC - Ansible (VMs only)",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "JS - Standard JS",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "JS - ES Lint",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "JS - NPM / NVM",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "JS - Webpack",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 3,
-        label: "Tomcat/JBoss/Weblogic",
-        active: false,
+        label: "JS - Yarn",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
-        ring: 0,
-        label: "Yarn",
-        active: false,
+        ring: 2,
+        label: "JS - Browserify",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
-        ring: 0,
-        label: "IntelliJ",
-        active: false,
+        ring: 2,
+        label: "JS - Gulp",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
-        ring: 0,
-        label: "VSCode",
-        active: false,
+        ring: 2,
+        label: "JS - Grunt",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
-        ring: 0,
-        label: "Postman",
-        active: false,
+        ring: 3,
+        label: "App - Tomcat",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
-        ring: 0,
-        label: "OWASP Scans",
-        active: false,
+        ring: 3,
+        label: "App - JBoss (WildFly)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
-        ring: 1,
-        label: "ZAP",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Prometheus (inc Alert Mgr)",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Application Insights",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Kibana",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Elastic",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Grafana",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Pager Duty",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Pingdom",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 1,
-        ring: 0,
-        label: "Sentry",
-        active: false,
+        ring: 3,
+        label: "App - Weblogic",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 1,
-        label: "Sonar",
-        active: false,
+        label: "Security - OWASP ZAP",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 1,
         ring: 1,
-        label: "Keycloak",
-        active: false,
+        label: "Security - Snyk",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Monitoring - Prometheus (inc Alert Mgr)",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Monitoring - App Insights",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Monitoring - Elastic/Kibana",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Monitoring - Grafana",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Monitoring - Pager Duty",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Monitoring - Pingdom",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 0,
+        label: "Monitoring - Sentry",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 1,
+        ring: 1,
+        label: "Auth - Keycloak",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 0,
-        label: "Javascript",
-        active: false,
+        label: "Node.js",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 0,
-        label: "Node",
-        active: false,
+        label: "Node.js - Express",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 0,
-        label: "Nunjucks",
-        active: false,
+        label: "Javascript (JS)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 0,
-        label: "Express",
-        active: false,
+        label: "JS - Nunjucks",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 0,
-        label: "Jest",
-        active: false,
+        label: "JS - Jest (testing)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 0,
-        label: "Mocha",
-        active: false,
+        label: "JS - Mocha (testing)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 0,
-        label: "Chai",
-        active: false,
+        label: "JS - Chai (testing)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 0,
-        label: "Sinon",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 3,
-        ring: 0,
-        label: "JPA",
-        active: false,
+        label: "JS - Sinon (testing)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 1,
-        label: "Rust",
-        active: false,
+        label: "JS - Cypress (testing)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 1,
-        label: "Gatsby",
-        active: false,
+        label: "React.js (dupe)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 1,
-        label: "Next JS",
-        active: false,
+        label: "Gatsby.js",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 1,
-        label: "Cypress",
-        active: false,
+        label: "Next.js",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 1,
-        label: "Typescript",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 3,
-        ring: 1,
-        label: "React",
-        active: false,
+        label: "JS - Typescript",
+        active: true,
         link: "",
         moved: 0
       },
@@ -508,7 +476,7 @@ radar_visualization({
         quadrant: 3,
         ring: 2,
         label: "React for static",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -516,7 +484,7 @@ radar_visualization({
         quadrant: 3,
         ring: 2,
         label: "Geb",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -524,7 +492,7 @@ radar_visualization({
         quadrant: 3,
         ring: 2,
         label: "Angular",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -532,7 +500,7 @@ radar_visualization({
         quadrant: 3,
         ring: 0,
         label: "Java",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -540,7 +508,7 @@ radar_visualization({
         quadrant: 3,
         ring: 0,
         label: "Spring Boot",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -548,7 +516,7 @@ radar_visualization({
         quadrant: 3,
         ring: 0,
         label: "Kotlin (Sheffield)",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -556,7 +524,7 @@ radar_visualization({
         quadrant: 3,
         ring: 1,
         label: "Kotlin (London)",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -564,7 +532,7 @@ radar_visualization({
         quadrant: 3,
         ring: 0,
         label: "Ruby (London)",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -572,7 +540,7 @@ radar_visualization({
         quadrant: 3,
         ring: 0,
         label: "Python (London)",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -580,7 +548,23 @@ radar_visualization({
         quadrant: 3,
         ring: 2,
         label: "Ruby (Sheffild)",
-        active: false,
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 3,
+        ring: 0,
+        label: "Java - JPA",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 3,
+        ring: 1,
+        label: "Rust",
+        active: true,
         link: "",
         moved: 0
       },
@@ -588,7 +572,7 @@ radar_visualization({
         quadrant: 3,
         ring: 2,
         label: "Groovy",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -596,7 +580,7 @@ radar_visualization({
         quadrant: 3,
         ring: 3,
         label: "C#",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -604,7 +588,7 @@ radar_visualization({
         quadrant: 3,
         ring: 3,
         label: "PHP",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -612,15 +596,15 @@ radar_visualization({
         quadrant: 3,
         ring: 3,
         label: "Ruby Rails",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 3,
         ring: 3,
-        label: "React ",
-        active: false,
+        label: "React.js (dupe)",
+        active: true,
         link: "",
         moved: 0
       },
@@ -628,7 +612,7 @@ radar_visualization({
         quadrant: 3,
         ring: 3,
         label: "GoLang",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -636,7 +620,7 @@ radar_visualization({
         quadrant: 3,
         ring: 3,
         label: "Scala",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -644,7 +628,7 @@ radar_visualization({
         quadrant: 3,
         ring: 2,
         label: ".NET",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -652,7 +636,7 @@ radar_visualization({
         quadrant: 3,
         ring: 0,
         label: "PowerShell",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -660,7 +644,7 @@ radar_visualization({
         quadrant: 3,
         ring: 3,
         label: "PLSQL",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -668,79 +652,103 @@ radar_visualization({
         quadrant: 3,
         ring: 0,
         label: "Selenium",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 0,
-        label: "Cloud Platform",
-        active: false,
+        label: "_MoJ_ Cloud Platform",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 0,
-        label: "S3",
-        active: false,
+        label: "AWS Public Cloud",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 0,
-        label: "SNS / SQS",
-        active: false,
+        label: "AWS - S3",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 2,
+        ring: 0,
+        label: "AWS - SNS",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 2,
+        ring: 0,
+        label: "AWS - SQS",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 2,
+        ring: 0,
+        label: "AWS - ElastiCache Redis",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 1,
-        label: "Serverless",
-        active: false,
+        label: "AWS - Serverless",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 3,
-        label: "ECS",
-        active: false,
+        label: "AWS - EC2",
+        active: true,
+        link: "",
+        moved: -1
+      },
+     {
+        quadrant: 2,
+        ring: 3,
+        label: "AWS - ECS",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 3,
-        label: "AWS Beanstalk",
-        active: false,
+        label: "AWS - Beanstalk",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 0,
-        label: "AWS Stacks",
-        active: false,
+        label: "AWS - Localstack (Dev)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 0,
-        label: "Localstack",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 2,
-        ring: 0,
-        label: "ECR (private repo)",
-        active: false,
+        label: "AWS - ECR (private repo)",
+        active: true,
         link: "",
         moved: 0
       },
@@ -748,7 +756,7 @@ radar_visualization({
         quadrant: 2,
         ring: 0,
         label: "Docker Hub (public)",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -756,87 +764,79 @@ radar_visualization({
         quadrant: 2,
         ring: 1,
         label: "Quay Docker Repo",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 0,
-        label: "Cloud Native Database",
-        active: false,
+        label: "DB - Cloud Managed DBs",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 0,
-        label: "Elastic cache redis",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 2,
-        ring: 0,
-        label: "Postgres",
-        active: false,
+        label: "DB - Postgres RDS",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 3,
-        label: "Oracle",
-        active: false,
+        label: "DB - Postgres (non DBaaS)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 3,
-        label: "SQL Server (non DBaaS)",
-        active: false,
+        label: "DB - Oracle (all)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 3,
-        label: "Mongo",
-        active: false,
+        label: "DB - SQL Server (non DBaaS)",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 2,
+        ring: 3,
+        label: "DB - Mongo",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 1,
-        label: "Kafka",
-        active: false,
+        label: "AWS - MSK (Kafka)",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 1,
-        label: "AKS",
-        active: false,
+        label: "Azure - AKS",
+        active: true,
         link: "",
         moved: 0
       },
      {
         quadrant: 2,
         ring: 2,
-        label: "Azure",
-        active: false,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 2,
-        ring: 1,
-        label: "GCP",
-        active: false,
+        label: "Azure Public Cloud",
+        active: true,
         link: "",
         moved: 0
       },
@@ -844,7 +844,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "Agile",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -852,7 +852,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "Scrum",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -860,7 +860,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "Kanban",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -868,7 +868,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "GDS Service",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -876,7 +876,7 @@ radar_visualization({
         quadrant: 0,
         ring: 3,
         label: "Waterfall",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -884,7 +884,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "DevOps",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -892,7 +892,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "CI/CD",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -900,7 +900,7 @@ radar_visualization({
         quadrant: 0,
         ring: 1,
         label: "Container Scanning",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -908,7 +908,7 @@ radar_visualization({
         quadrant: 0,
         ring: 1,
         label: "A/B Testing",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -916,7 +916,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "Trunk based development",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -924,7 +924,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "Feature switching",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -932,7 +932,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "PR Review",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -940,7 +940,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "Pairing",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -948,7 +948,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "Prototyping Spikes",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -956,7 +956,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "BDD",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -964,7 +964,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "TDD",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -972,7 +972,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "Domain Driven Design",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -980,7 +980,7 @@ radar_visualization({
         quadrant: 0,
         ring: 0,
         label: "REST API",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -988,7 +988,7 @@ radar_visualization({
         quadrant: 0,
         ring: 1,
         label: "Hateoas (Ext APIS)",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },
@@ -996,7 +996,7 @@ radar_visualization({
         quadrant: 0,
         ring: 1,
         label: "Consumer Driven Contracts",
-        active: false,
+        active: true,
         link: "",
         moved: 0
       },

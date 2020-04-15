@@ -16,7 +16,7 @@ git clone https://github.com/ministryofjustice/hmpps-digital-tech-radar
 cd hmpps-digital-tech-radar
 cd build/
 # update CSV filewith your changes
-cp <location-of-updated-csv-file> test-tech-radar.csv
+cp <location-of-updated-csv-file> ./tech-radar-data.csv
 # then regenerate the js...
 ./generate-radar-data.sh >../docs/radar_visualization.js
 

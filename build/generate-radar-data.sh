@@ -15,9 +15,17 @@ do
   LABEL=`echo "$line" | awk -F',' '{print $1}'`
   QUADRANT=`echo "$line" | awk -F',' '{print $2}'`
   RING=`echo "$line" | awk -F',' '{print $3}'`
-  DESC=`echo "$line" | awk -F',' '{print $4 $5 $6 $7 $8 $9 $10}'`
+  MOVED=`echo "$line" | awk -F',' '{print $4}'`
+  DESC=`echo "$line" | awk -F',' '{$1=$2=$3=$4=""; print $0}'`
   QUADRANT_NO=1
   RING_NO=1
+  MOVED_NO=0
+
+  # skip the header - just contains the column names
+  if [ "$LABEL" = "name" ] ; then
+    continue
+  fi
+
   case "$QUADRANT" in
     "Techniques" )
         QUADRANT_NO=0 ;;
@@ -40,13 +48,22 @@ do
         RING_NO=3 ;;
   esac
 
+  case "$MOVED" in
+    "UP" )
+        MOVED_NO=1 ;;
+    "DOWN" )
+        MOVED_NO=-1 ;;
+    "FALSE" )
+        MOVED_NO=0 ;;
+  esac
+
   echo "     {"
   echo "        quadrant: $QUADRANT_NO,"
   echo "        ring: $RING_NO,"
   echo "        label: \"$LABEL\","
-  echo "        active: false,"
+  echo "        active: true,"
   echo "        link: \"\","
-  echo "        moved: 0"
+  echo "        moved: $MOVED_NO"
   echo "      },"
 done < "$input"
 

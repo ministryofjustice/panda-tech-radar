@@ -7,7 +7,7 @@ radar_visualization({
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "HMPPS Digital Tech Radar — Feb 2020",
+  title: "HMPPS Digital Tech Radar — April 2020",
   quadrants: [
     { name: "Techniques" },
     { name: "Tooling" },
