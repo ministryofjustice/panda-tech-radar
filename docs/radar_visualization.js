@@ -50,7 +50,7 @@ radar_visualization({
       },
      {
         quadrant: 1,
-        ring: 1,
+        ring: 3,
         label: "Code - Sonarqube",
         active: true,
         link: "",
@@ -996,6 +996,14 @@ radar_visualization({
         quadrant: 0,
         ring: 1,
         label: "Consumer Driven Contracts",
+        active: true,
+        link: "",
+        moved: 0
+      },
+     {
+        quadrant: 0,
+        ring: 0,
+        label: "ADR",
         active: true,
         link: "",
         moved: 0

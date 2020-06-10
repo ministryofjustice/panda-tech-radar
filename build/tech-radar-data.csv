@@ -2,7 +2,7 @@ name,quadrant,ring,up/down?,description
 Code - Github,Tooling,Adopt,FALSE,"A development platform inspired by the way you work. From open source to business, you can host and review code, manage projects, and build software alongside 40 million developers. "
 Code - Prettier,Tooling,Adopt,FALSE,An opinionated code formatter; Supports many languages; Integrates with most editors.
 Code - SASS,Tooling,Adopt,FALSE,"CSS with superpowers. Sass is the most mature, stable, and powerful professional grade CSS extension language in the world."
-Code - Sonarqube,Tooling,Trial,FALSE,"An open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities on 20+ programming languages."
+Code - Sonarqube,Tooling,Reduce-and-remove,FALSE,"An open-source platform developed by SonarSource for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities on 20+ programming languages."
 CI - Circle CI,Tooling,Adopt,FALSE,"Cloud hosted CI tool providing a continuous integration and continuous delivery platform to build, test, and deploy software."
 CI - Jenkins,Tooling,Hold,FALSE,"An open source automation server which enables developers around the world to reliably build, test, and deploy their software."
 Dev - Gradle (Kotlin-based),Tooling,Adopt,FALSE,An open-source build automation system that builds upon the concepts of Apache Ant and Apache Maven and introduces a Groovy or Kotlin -based domain-specific language instead of the XML form used by Apache Maven for declaring the project configuration.
