@@ -34,6 +34,7 @@ cp <location-of-updated-csv-file> ./tech-radar-data.csv
 ```
 
 
+
 2. insert an empty `svg` tag:
 
 ```html
