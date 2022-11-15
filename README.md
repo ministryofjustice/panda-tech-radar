@@ -33,6 +33,7 @@ cp <location-of-updated-csv-file> ./tech-radar-data.csv
 <script src="http://zalando.github.io/tech-radar/release/radar-0.5.js"></script>
 ```
 
+
 2. insert an empty `svg` tag:
 
 ```html
