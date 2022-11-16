@@ -27,7 +27,7 @@ JS - NPM / NVM,Tooling,Adopt,FALSE,NPS is a package manager for the JavaScript p
 JS - Webpack,Tooling,Adopt,FALSE,"A module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging"
 JS - Yarn,Tooling,Reduce-and-remove,FALSE,A package manager that doubles down as project manager.
 JS - Browserify,Tooling,Hold,FALSE,An open-source JavaScript tool that allows developers to write Node.js-style modules that compile for use in the browser.
-JS - Gulp,Tooling,Hold,FALSE,"A toolkit for automating painful or time-consuming tasks in your javascript development workflow, so you can stop messing around and build something. "
+JS - Gulp,Tooling,Reduce-and-remove,FALSE,"A toolkit for automating painful or time-consuming tasks in your javascript development workflow, so you can stop messing around and build something. "
 JS - Grunt,Tooling,Hold,FALSE,"A JavaScript task runner, a tool used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting."
 App - Tomcat,Tooling,Reduce-and-remove,FALSE,"Apache Tomcat is an open-source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and WebSocket technologies."
 App - JBoss (WildFly),Tooling,Reduce-and-remove,FALSE,"WildFly, formerly known as JBoss is a Java EE application server authored by JBoss, now developed by Red Hat. Open-source with optional Red Hat support."
@@ -50,11 +50,9 @@ JS - Jest (testing),Language-and-Frameworks,Adopt,FALSE,"A delightful JavaScript
 JS - Mocha (testing),Language-and-Frameworks,Adopt,FALSE,"A feature-rich JavaScript test framework running on Node.js and in the browser, making asynchronous testing simple and fun. Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases."
 JS - Chai (testing),Language-and-Frameworks,Adopt,FALSE,A BDD / TDD assertion library for node and the browser that can be delightfully paired with any javascript testing framework.
 JS - Sinon (testing),Language-and-Frameworks,Adopt,FALSE,"Standalone test spies, stubs and mocks for JavaScript.  Works with any unit testing framework."
-JS - Cypress (testing),Language-and-Frameworks,Trial,FALSE,A JavaScript End to End Testing Framework
-React.js (dupe),Language-and-Frameworks,Trial,FALSE,A JavaScript library for building user interfaces
-Gatsby.js,Language-and-Frameworks,Trial,FALSE,A framework based on React that helps developers build blazing fast websites and apps
+JS - Cypress (testing),Language-and-Frameworks,Adopt,FALSE,A JavaScript End to End Testing Framework
+JS - Typescript,Language-and-Frameworks,Adopt,FALSE,A typed superset of JavaScript that compiles to plain JavaScript.
 Next.js,Language-and-Frameworks,Trial,FALSE,"An opinionated framework that simplifies routing, renders on the server side by default and streamlines dependencies and builds."
-JS - Typescript,Language-and-Frameworks,Trial,FALSE,A typed superset of JavaScript that compiles to plain JavaScript.
 React for static,Language-and-Frameworks,Hold,FALSE,A progressive static-site generator for React.
 Geb,Language-and-Frameworks,Hold,FALSE,"A very Groovy browser automation. Web Testing, Screen Scraping and more."
 Angular,Language-and-Frameworks,Hold,FALSE,A platform for building mobile and desktop web applications.
@@ -64,14 +62,14 @@ Kotlin (Sheffield),Language-and-Frameworks,Adopt,FALSE,"A modern programming lan
 Kotlin (London),Language-and-Frameworks,Trial,FALSE,"A modern programming language that makes developers happier.  Good for Mobile cross-platform, Native, Data science, Server-side, Web development, Android.  Kotlin is Concise, Safe, Interoperable with existing libraries for the JVM, Android, and the browser and Tool-friendly."
 Ruby (London),Language-and-Frameworks,Adopt,FALSE,"A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write."
 Python (London),Language-and-Frameworks,Adopt,FALSE,A programming language that lets you work quickly and integrate systems more effectively.
-Ruby (Sheffild),Language-and-Frameworks,Hold,FALSE,"A modern programming language that makes developers happier.  Good for Mobile cross-platform, Native, Data science, Server-side, Web development, Android.  Kotlin is Concise, Safe, Interoperable with existing libraries for the JVM, Android, and the browser and Tool-friendly."
+Ruby (Sheffield),Language-and-Frameworks,Hold,FALSE,"A modern programming language that makes developers happier.  Good for Mobile cross-platform, Native, Data science, Server-side, Web development, Android.  Kotlin is Concise, Safe, Interoperable with existing libraries for the JVM, Android, and the browser and Tool-friendly."
 Java - JPA,Language-and-Frameworks,Adopt,FALSE,A Java API specification that describes the management of relational data in applications.  Java Persistence API (also Jakarta Persistence).
 Rust,Language-and-Frameworks,Trial,FALSE,A language empowering everyone to build reliable and efficient software.
 Groovy,Language-and-Frameworks,Hold,FALSE,"A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming. "
 C#,Language-and-Frameworks,Reduce-and-remove,FALSE,"A general-purpose, multi-paradigm programming language encompassing strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.  Typically used with .NET."
 PHP,Language-and-Frameworks,Reduce-and-remove,FALSE,"A server scripting language, and a powerful tool for making dynamic and interactive Web pages."
 Ruby Rails,Language-and-Frameworks,Reduce-and-remove,FALSE,A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC).
-React.js (dupe),Language-and-Frameworks,Reduce-and-remove,FALSE,A JavaScript library for building user interfaces
+React.js,Language-and-Frameworks,Reduce-and-remove,FALSE,A JavaScript library for building user interfaces
 GoLang,Language-and-Frameworks,Reduce-and-remove,FALSE,"An open source programming language that makes it easy to build simple, reliable, and efficient software. "
 Scala,Language-and-Frameworks,Reduce-and-remove,FALSE,"Scala combines object-oriented and functional programming in one concise, high-level language. Scala's static types help avoid bugs in complex applications, and its JVM and JavaScript runtimes let you build high-performance systems with easy access to huge ecosystems of libraries."
 .NET,Language-and-Frameworks,Hold,FALSE,.NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library named as Framework Class Library and provides language interoperability across several programming languages.
