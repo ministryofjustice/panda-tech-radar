@@ -514,7 +514,7 @@ radar_visualization({
       },
      {
         quadrant: 3,
-        ring: 0,
+        ring: 2,
         label: "Ruby (London)",
         active: true,
         link: "",
@@ -530,7 +530,7 @@ radar_visualization({
       },
      {
         quadrant: 3,
-        ring: 2,
+        ring: 3,
         label: "Ruby (Sheffield)",
         active: true,
         link: "",
