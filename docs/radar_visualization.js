@@ -194,7 +194,7 @@ radar_visualization({
       },
      {
         quadrant: 1,
-        ring: 0,
+        ring: 3,
         label: "IaC - Ansible (VMs only)",
         active: true,
         link: "",
@@ -250,7 +250,7 @@ radar_visualization({
       },
      {
         quadrant: 1,
-        ring: 2,
+        ring: 3,
         label: "JS - Gulp",
         active: true,
         link: "",
@@ -434,7 +434,7 @@ radar_visualization({
       },
      {
         quadrant: 3,
-        ring: 1,
+        ring: 0,
         label: "JS - Cypress (testing)",
         active: true,
         link: "",
@@ -442,16 +442,8 @@ radar_visualization({
       },
      {
         quadrant: 3,
-        ring: 1,
-        label: "React.js (dupe)",
-        active: true,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 3,
-        ring: 1,
-        label: "Gatsby.js",
+        ring: 0,
+        label: "JS - Typescript",
         active: true,
         link: "",
         moved: 0
@@ -460,14 +452,6 @@ radar_visualization({
         quadrant: 3,
         ring: 1,
         label: "Next.js",
-        active: true,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 3,
-        ring: 1,
-        label: "JS - Typescript",
         active: true,
         link: "",
         moved: 0
@@ -538,7 +522,7 @@ radar_visualization({
       },
      {
         quadrant: 3,
-        ring: 0,
+        ring: 3,
         label: "Python (London)",
         active: true,
         link: "",
@@ -547,7 +531,7 @@ radar_visualization({
      {
         quadrant: 3,
         ring: 2,
-        label: "Ruby (Sheffild)",
+        label: "Ruby (Sheffield)",
         active: true,
         link: "",
         moved: 0
@@ -603,7 +587,7 @@ radar_visualization({
      {
         quadrant: 3,
         ring: 3,
-        label: "React.js (dupe)",
+        label: "React.js",
         active: true,
         link: "",
         moved: 0
@@ -746,7 +730,7 @@ radar_visualization({
       },
      {
         quadrant: 2,
-        ring: 0,
+        ring: 3,
         label: "AWS - ECR (private repo)",
         active: true,
         link: "",
@@ -762,7 +746,7 @@ radar_visualization({
       },
      {
         quadrant: 2,
-        ring: 1,
+        ring: 0,
         label: "Quay Docker Repo",
         active: true,
         link: "",
@@ -826,7 +810,7 @@ radar_visualization({
       },
      {
         quadrant: 2,
-        ring: 1,
+        ring: 3,
         label: "Azure - AKS",
         active: true,
         link: "",
@@ -898,7 +882,7 @@ radar_visualization({
       },
      {
         quadrant: 0,
-        ring: 1,
+        ring: 0,
         label: "Container Scanning",
         active: true,
         link: "",

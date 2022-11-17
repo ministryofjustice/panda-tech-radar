@@ -20,7 +20,7 @@ Platform - Kubernetes/Helm,Tooling,Adopt,FALSE,"An open-source container-orchest
 Platform - Docker,Tooling,Adopt,FALSE,"A lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings."
 IaC - Terraform,Tooling,Adopt,FALSE,"Use Infrastructure as Code to provision and manage any cloud, infrastructure, or service.  Write declarative configuration files, Plan and predict changes, Create reproducible infrastructure."
 IaC - Terragrunt,Tooling,Hold,FALSE,A thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules. - gruntwork-io/terragrunt.
-IaC - Ansible (VMs only),Tooling,Adopt,FALSE,"An open-source software provisioning, configuration management, and application-deployment tool. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows. It includes its own declarative language to describe system configuration."
+IaC - Ansible (VMs only),Tooling,Reduce-and-remove,FALSE,"An open-source software provisioning, configuration management, and application-deployment tool. It runs on many Unix-like systems, and can configure both Unix-like systems as well as Microsoft Windows. It includes its own declarative language to describe system configuration."
 JS - Standard JS,Tooling,Adopt,FALSE,"A JavaScript style guide, linter, and formatter"
 JS - ES Lint,Tooling,Adopt,FALSE,A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.
 JS - NPM / NVM,Tooling,Adopt,FALSE,NPS is a package manager for the JavaScript programming language. NVM is a version manager for node.js.
@@ -61,7 +61,7 @@ Spring Boot,Language-and-Frameworks,Adopt,FALSE,"A Java-based framework which ma
 Kotlin (Sheffield),Language-and-Frameworks,Adopt,FALSE,"A modern programming language that makes developers happier.  Good for Mobile cross-platform, Native, Data science, Server-side, Web development, Android.  Kotlin is Concise, Safe, Interoperable with existing libraries for the JVM, Android, and the browser and Tool-friendly."
 Kotlin (London),Language-and-Frameworks,Trial,FALSE,"A modern programming language that makes developers happier.  Good for Mobile cross-platform, Native, Data science, Server-side, Web development, Android.  Kotlin is Concise, Safe, Interoperable with existing libraries for the JVM, Android, and the browser and Tool-friendly."
 Ruby (London),Language-and-Frameworks,Adopt,FALSE,"A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write."
-Python (London),Language-and-Frameworks,Adopt,FALSE,A programming language that lets you work quickly and integrate systems more effectively.
+Python (London),Language-and-Frameworks,Reduce-and-remove,FALSE,A programming language that lets you work quickly and integrate systems more effectively.
 Ruby (Sheffield),Language-and-Frameworks,Hold,FALSE,"A modern programming language that makes developers happier.  Good for Mobile cross-platform, Native, Data science, Server-side, Web development, Android.  Kotlin is Concise, Safe, Interoperable with existing libraries for the JVM, Android, and the browser and Tool-friendly."
 Java - JPA,Language-and-Frameworks,Adopt,FALSE,A Java API specification that describes the management of relational data in applications.  Java Persistence API (also Jakarta Persistence).
 Rust,Language-and-Frameworks,Trial,FALSE,A language empowering everyone to build reliable and efficient software.
@@ -87,9 +87,9 @@ AWS - EC2,Platforms,Reduce-and-remove,DOWN,"Amazon Elastic Compute Cloud (Amazon
 AWS - ECS,Platforms,Reduce-and-remove,FALSE,"A fully managed container orchestration service. Customers such as Duolingo, Samsung, GE, and Cook Pad use ECS to run their most sensitive and mission critical applications because of its security, reliability, and scalability."
 AWS - Beanstalk,Platforms,Reduce-and-remove,FALSE,"An easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS."
 AWS - Localstack (Dev),Platforms,Adopt,FALSE,A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!
-AWS - ECR (private repo),Platforms,Adopt,FALSE,"Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images."
+AWS - ECR (private repo),Platforms,Reduce-and-remove,FALSE,"Amazon Elastic Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images."
 Docker Hub (public),Platforms,Adopt,FALSE,A container repository service for finding and sharing container images with your team. It provides the following major features: Repositories: Push and pull container images. ... Webhooks: Trigger actions after a successful push to a repository to integrate Docker Hub with other services.
-Quay Docker Repo,Platforms,Trial,FALSE,"A container repository service that [builds, analyzes, distributes] your container images"
+Quay Docker Repo,Platforms,Adopt,FALSE,"A container repository service that [builds, analyzes, distributes] your container images"
 DB - Cloud Managed DBs,Platforms,Adopt,FALSE,"Managed databases are typically provided by the cloud provider as-a-Service and takes over many of the difficult or tedious management tasks of a managing a database.  It is typically scalable, manages backups, software patching, automatic failure detection, and recovery."
 DB - Postgres RDS,Platforms,Adopt,FALSE,"With Amazon RDS, you can deploy scalable PostgreSQL deployments in minutes with cost-efficient and resizable hardware capacity. Amazon RDS manages complex and time-consuming administrative tasks such as PostgreSQL software installation and upgrades; storage management; replication for high availability and read throughput; and backups for disaster recovery."
 DB - Postgres (non DBaaS),Platforms,Reduce-and-remove,FALSE,
@@ -97,7 +97,7 @@ DB - Oracle (all),Platforms,Reduce-and-remove,FALSE,
 DB - SQL Server (non DBaaS),Platforms,Reduce-and-remove,FALSE,
 DB - Mongo,Platforms,Reduce-and-remove,FALSE,
 AWS - MSK (Kafka),Platforms,Trial,FALSE,
-Azure - AKS,Platforms,Trial,FALSE,
+Azure - AKS,Platforms,Reduce-and-remove,FALSE,
 Azure Public Cloud,Platforms,Hold,FALSE,
 Agile,Techniques,Adopt,FALSE,
 Scrum,Techniques,Adopt,FALSE,
@@ -106,7 +106,7 @@ GDS Service,Techniques,Adopt,FALSE,
 Waterfall,Techniques,Reduce-and-remove,FALSE,
 DevOps,Techniques,Adopt,FALSE,
 CI/CD,Techniques,Adopt,FALSE,
-Container Scanning,Techniques,Trial,FALSE,
+Container Scanning,Techniques,Adopt,FALSE,
 A/B Testing,Techniques,Trial,FALSE,
 Trunk based development,Techniques,Adopt,FALSE,
 Feature switching,Techniques,Adopt,FALSE,
