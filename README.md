@@ -1,6 +1,6 @@
 # Motivation
 
-At [HMPPS Digital](https://mojdigital.blog.gov.uk/), we maintain a [public Tech
+At [Platforms and Architecture](https://mojdigital.blog.gov.uk/), we maintain a [public Tech
 Radar](https://github.com/ministryofjustice/hmpps-digital-tech-radar) to help our engineering teams
 align on technology choices. It is based on the [pioneering work
 by ThoughtWorks](https://www.thoughtworks.com/radar).
@@ -12,8 +12,8 @@ Feel free to use and adapt it for your own purposes.
 # Quick Build
 
 ```bash
-git clone https://github.com/ministryofjustice/hmpps-digital-tech-radar
-cd hmpps-digital-tech-radar
+git clone https://github.com/ministryofjustice/panda-tech-radar
+cd panda-tech-radar
 cd build/
 # update CSV filewith your changes
 cp <location-of-updated-csv-file> ./tech-radar-data.csv
