@@ -7,7 +7,7 @@ radar_visualization({
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "Platforms and Architecture Tech Radar — Draft ongoing",
+  title: "Platforms and Architecture Tech Radar — Draft Feb '24 ongoing",
   quadrants: [
     { name: "Techniques" },
     { name: "Tooling" },
