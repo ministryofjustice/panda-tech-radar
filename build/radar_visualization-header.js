@@ -7,7 +7,7 @@ radar_visualization({
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "HMPPS Digital Tech Radar — November 2022",
+  title: "Platforms and Architecture Tech Radar — draft WIP Feb '24",
   quadrants: [
     { name: "Techniques" },
     { name: "Tooling" },

@@ -7,7 +7,7 @@ radar_visualization({
     grid: "#bbb",
     inactive: "#ddd"
   },
-  title: "Platforms and Architecture Tech Radar — Draft Feb '24 ongoing",
+  title: "Platforms and Architecture Tech Radar — draft WIP Feb '24",
   quadrants: [
     { name: "Techniques" },
     { name: "Tooling" },
@@ -980,14 +980,6 @@ radar_visualization({
         quadrant: 0,
         ring: 1,
         label: "Consumer Driven Contracts",
-        active: true,
-        link: "",
-        moved: 0
-      },
-     {
-        quadrant: 0,
-        ring: 0,
-        label: "ADR",
         active: true,
         link: "",
         moved: 0
